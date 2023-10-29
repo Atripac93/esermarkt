@@ -1,0 +1,10 @@
+.prodotto{
+    margin-top: 20px ;
+}
+.commento{
+    border-radius: 30px;
+    border-style: groove; 
+    height: 120px; 
+    width: 400px; 
+    margin-top: 15px; 
+}
