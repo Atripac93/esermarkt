@@ -16,4 +16,17 @@ const indirizzo = function(idFittizio){
     f.innerText = idFittizio;
 }
 indirizzo("VIA VIncenzini 13, BeRliNo");
+//4//
+const classe = function(){
+    let link = document.querySelectorAll("a");
+    for(let i = 0; i<link.length; i++){
+  link[i].classList.add("coloret");
+    }
+}
+classe()
+//5//
+const togli = function(){
 
+}
+
+   
