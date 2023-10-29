@@ -9,6 +9,8 @@
     margin-top: 15px; 
 }
 .coloret{
-    color: aqua;
     background-color: red;
+}
+.ombra{
+    visibility: hidden;
 }
