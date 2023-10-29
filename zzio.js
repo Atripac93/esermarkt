@@ -26,7 +26,19 @@ const classe = function(){
 classe()
 //5//
 const togli = function(){
-
+    let imagines = document.querySelectorAll("img");
+    for(let i = 0; i<imagines.length; i++){
+        imagines[i].toggleAttribute("ombra");
+    }
 }
+togli()
+//6//
+const prezzo = function(){
+    let euro = document.querySelectorAll(".prezzo");
+    for(let i = 0; i<euro.length; i++){
+        euro[i].style.color= rgb Math.round(Math.random()*108),Math.round(Math.random()*255),Math.round(Math.random()*88); 
+       }
+}
+prezzo();
 
    
