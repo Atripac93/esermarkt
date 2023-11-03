@@ -1,29 +1,28 @@
 //1//
-const cambio = function (nuovoContenuto){
-    let x = document.querySelector("h1");
-    x.innerText= nuovoContenuto;
+const cambio = function(cambioContenuto){
+    let cambiare = document.querySelector("h1");
+    cambiare.innerText = cambioContenuto;
 }
+
 //2//
-const pagina = function (nuovoColore){
-    let y = document.querySelector("body");
-    let z = document.querySelector("h1");
-    y.style="background-color:" + nuovoColore;
-    z.style.color= "blue" + nuovoColore;
+const pagina = function(cambioSfondo){
+    let cambioColor = document.querySelector("body");
+    cambioColor.style="background-color:" + cambioSfondo;
 }
 //3//
-const indirizzo = function(idFittizio){
-    let f = document.querySelector(".indirizio");
-    f.innerText = idFittizio;
+const indirizzo = function(cambioIndirizzo){
+    let indircambio = document.querySelector(".indirizio");
+    indircambio.innerText = cambioIndirizzo;
 }
-indirizzo("VIA VIncenzini 13, BeRliNo");
+indirizzo("Via XXIV")
 //4//
-const classe = function(){
-    let link = document.querySelectorAll("a");
-    for(let i = 0; i<link.length; i++){
-  link[i].classList.add("coloret");
+const link = function(cambioLink){
+    let cambios = document.querySelectorAll("a");
+    for(let i = 0; i<cambios.length; i++){
+        cambios[i].classList.add("coco");
     }
 }
-classe()
+link()
 //5//
 const togli = function(){
     let imagines = document.querySelectorAll("img");
@@ -33,12 +32,5 @@ const togli = function(){
 }
 togli()
 //6//
-const prezzo = function(){
-    let euro = document.querySelectorAll(".prezzo");
-    for(let i = 0; i<euro.length; i++){
-        euro[i].style.color= rgb Math.round(Math.random()*108),Math.round(Math.random()*255),Math.round(Math.random()*88); 
-       }
-}
-prezzo();
 
    
