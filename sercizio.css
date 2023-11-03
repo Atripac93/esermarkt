@@ -8,8 +8,9 @@
     width: 400px; 
     margin-top: 15px; 
 }
-.coloret{
-    background-color: red;
+.coco{
+    background-color: aqua;
+    color:yellow;
 }
 .ombra{
     visibility: hidden;
