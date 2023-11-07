@@ -32,5 +32,20 @@ const togli = function(){
 }
 togli()
 //6//
+const mostraValue = function(){
+    let dimmi = document.querySelectorAll("input")
+    for(let i = 0; i<dimmi.length; i++)
+     console.log(dimmi[i].value)
+}
 
-   
+const mostraTesto = function(){
+    const mostra = document.querySelector(".pippo")
+    console.log(mostra.value)
+}
+
+const dammiColor = function(){
+    const dammi = document.querySelector(".mostraColore")
+  console.log(dammi.value)
+  const titolino = document.querySelector("h2")
+  h2.style.color =dammi.value
+}
