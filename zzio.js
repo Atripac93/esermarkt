@@ -46,6 +46,10 @@ const mostraTesto = function(){
 const dammiColor = function(){
     const dammi = document.querySelector(".mostraColore")
   console.log(dammi.value)
-  const titolino = document.querySelector("h2")
-  h2.style.color =dammi.value
+  const h2 = document.querySelector("h2")
+  h2.style.color = dammi.value
+}
+
+const hola = function (changEvent) {
+    console.log(changEvent.target.value)
 }
